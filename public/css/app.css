@@ -5477,14 +5477,13 @@ footer {
   text-align: center;
 }
 
-.navbar-brand {
-  position: absolute;
-  top: 0.35714286rem;
-  left: 2.14285714rem;
+.navbar {
+  background-color: #1d3970;
 }
 
 .navbar-brand img {
   max-height: 3.92857143rem;
+  max-width: 70%;
 }
 
 .footer-brand {
@@ -5497,23 +5496,28 @@ footer {
   max-height: 13.57142857rem;
 }
 
-.header-links {
-  position: absolute;
-  top: 0.71428571rem;
-  right: 2.14285714rem;
-}
-
-.header-links a {
+.nav-item {
   border: none;
   padding-left: 0.71428571rem;
   padding-right: 0.71428571rem;
   margin-right: 2.14285714rem;
+  border-radius: 5px;
+  font-size: 1.28571429rem;
+  color: #fff;
 }
 
-.header-links a:hover {
+.nav-item a {
+  color: #fff;
+}
+
+.nav-item:hover {
   text-decoration: none;
   color: #1d3970;
-  background-color: #f5f8fa;
+  background-color: #fff;
+}
+
+.nav-item:hover a {
+  color: #1d3970;
 }
 
 .panel {
