@@ -50,7 +50,7 @@
                     </li>
                     @else
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
                         </li>
                         @if (Auth::user())
                         <li class="nav-item">
@@ -59,7 +59,7 @@
                         @endif
                         @if (Auth::user()->isAdmin)
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('admin') }}">Admin Menu</a>
+                            <a class="nav-link" href="{{ url('admin') }}">Admin</a>
                         </li>
                         @endif
                         @if (Auth::user())
