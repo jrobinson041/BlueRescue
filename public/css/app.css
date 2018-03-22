@@ -5481,9 +5481,17 @@ footer {
   background-color: #1d3970;
 }
 
+.navbar-brand {
+  max-width: 60%;
+}
+
 .navbar-brand img {
   max-height: 3.92857143rem;
-  max-width: 70%;
+  max-width: 80%;
+}
+
+.navbar-brand img:first-child {
+  max-width: 20%;
 }
 
 .footer-brand {
@@ -5673,8 +5681,8 @@ footer {
   top: 4.28571429rem;
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
   z-index: -10;
   background-color: #1a1919;
 }
