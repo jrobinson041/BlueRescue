@@ -39,7 +39,7 @@
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars" style="font-size:48px;color:white;opacity:0.7;"></i>
+                <i class="fa fa-bars" style="font-size:48px;color:white;opacity:0.7;max-width:15%"></i>
             </button>
 
             <div class="collapse navbar-collapse navbar-btn btn-lg" id="navbarTogglerDemo02">

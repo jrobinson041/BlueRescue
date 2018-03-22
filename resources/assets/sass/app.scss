@@ -113,10 +113,15 @@ footer {
 }
 
 .navbar-brand {  
-    img {
-    max-height: rem(55);
-    max-width: 70%;
-     }
+    max-width: 60%;
+    img{
+        max-height: rem(55);
+        max-width: 80%;
+    }
+    img:first-child {
+        max-width: 20%;
+    }
+    
 }
 
 .footer-brand {
@@ -283,8 +288,8 @@ footer {
     left:0;
     top:rem(60);
     filter:brightness(50%);
-    height:100%;
-    width: 100%;
+    min-height:100%;
+    min-width: 100%;
     z-index: -10;
     background-color: darken($color:white, $amount: 90%);
 }
