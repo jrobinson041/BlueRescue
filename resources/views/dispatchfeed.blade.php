@@ -72,17 +72,18 @@
 
                                     <!-- Task View Button -->
                                     <td>
+                                    <div class="col" style="margin-bottom: 5px;">
                                         <form action="{{ url('dispatch/'.$task->id) }}" method="POST">
                                             {{ csrf_field() }}
 
-                                            <button type="submit" class="btn btn-primary">
+                                            <button type="submit" class="btn btn-primary" style="width:100%;">
                                                 <i class="fa fa-btn fa-chevron-right"></i>View
                                             </button>
                                         </form>
-                                    </td>                                   
+                                    </div>                                   
 
                                     <!-- Task Delete Button -->
-                                    <td>
+                                    <div class="col">                                    
                                         <form action="{{ url('dispatch/'.$task->id) }}" method="POST">
                                             {{ csrf_field() }}
                                             {{ method_field('DELETE') }}
@@ -91,6 +92,7 @@
                                                 <i class="fa fa-btn fa-trash"></i>Delete
                                             </button>
                                         </form>
+                                    </div>
                                     </td>
                                 </tr>
                             @endforeach
