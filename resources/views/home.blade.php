@@ -50,10 +50,10 @@
         <h2>The BlueRescue Database</h2>
         <br><br>
         <div class="row">
-            <div class="col col-md-3 col-md-offset-2">
+            <div class="col-md-3 col-md-offset-2">
                 <img src="{{asset('img/digitalblueprint.jpg')}}"/>
             </div>
-            <div class="col col-md-4">
+            <div class="col-md-4">
                 <p>Our database contains digitized blueprints from zoning departments. We hand-scan in paper documents from local zoning departments and associate the documents with their addresses. When dispatch gets a new call, our database can use the address to get the blueprints and send it to our app.</p>
             </div>
         </div>
