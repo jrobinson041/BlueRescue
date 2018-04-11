@@ -58,6 +58,7 @@
             </div>
         </div>
     </div>
+    <!--
     <div class="content">
         <h1>The Team</h1>
         <br><br>
@@ -88,6 +89,6 @@
                 <p class="position">Chief Operating Officer</p>
             </div>
         </div>
-
+    </div>-->
 </div>
 @endsection
